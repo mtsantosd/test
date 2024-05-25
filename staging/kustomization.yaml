@@ -8,6 +8,6 @@ patches:
 
 namespace: staging
 namePrefix: stg-
-nameSuffix: -v1.0
+nameSuffix: -v1-0
 commonLabels:
   app: std-web-wdpress
