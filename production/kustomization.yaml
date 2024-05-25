@@ -1,3 +1,10 @@
 resources:
-  - namespace.yaml
-  - deployment.yaml
+- ../base
+- namespace.yaml
+
+patches:
+- path: deployment.yaml
+
+namespace: production
+namePrefix: prod-
+nameSuffix: -v1.0
