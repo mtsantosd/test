@@ -3,6 +3,7 @@ apiVersion: route.openshift.io/v1
 metadata:
   name: route
 spec:
+  host: base.lab.net
   to:
     kind: Service
     name: svc-web-wdpress
