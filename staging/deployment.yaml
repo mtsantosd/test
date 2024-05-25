@@ -1,9 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: web-template
+  name: web-wdpress
 spec:
-  replicas: 2
+  replicas: 1
   template:
     spec:
       containers:
