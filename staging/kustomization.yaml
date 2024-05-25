@@ -1,10 +1,12 @@
 resources:
 - ../base
 - namespace.yaml
-- service.yaml
 
 patches:
-- path: deployment.yaml
+- path: 
+    deployment.yaml
+    services.yaml
+
 
 namespace: staging
 namePrefix: stg-
