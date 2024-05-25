@@ -1,7 +1,7 @@
 kind: Route
 apiVersion: route.openshift.io/v1
 metadata:
-  name: route-web-wdpress
+  name: route
 spec:
   host: std-web.lab.net
 
