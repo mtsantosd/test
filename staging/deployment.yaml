@@ -1,0 +1,10 @@
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: staging-myapp-v1-2-0
+spec:
+  template:
+    spec:
+      containers:
+        - name: myapp
+          image: lordofthejars/pacman-kikd:1.2.0

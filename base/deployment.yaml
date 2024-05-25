@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: pacman-kikd
+  name: pacman-kikd
+  namespace: testing
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: pacman-kikd
+  template:
+    metadata:
+      labels:
+        app: pacman-kikd
+    spec:
+      containers:
+      - image: lordofthejars/pacman-kikd:1.0.0
+        imagePullPolicy: Always
+        name: pacman-kikd
+        ports:
+          - containerPort: 8080
+            name: http
+            protocol: TCP
