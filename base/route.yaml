@@ -9,5 +9,5 @@ spec:
   tls: null
   host: www.std-web.lab.net
   port:
-    targetPort: http
+    targetPort: httpd
 
