@@ -4,6 +4,8 @@ metadata:
   name: web-wdpress
 spec:
   replicas: 1
+  selector:
+    app: std-web-wdpress
   template:
     spec:
       containers:
