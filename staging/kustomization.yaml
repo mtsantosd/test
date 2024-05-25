@@ -1,8 +1,11 @@
 resources:
 - ../base
 - namespace.yaml
+- service.yaml
+
 patches:
 - path: deployment.yaml
+
 namespace: staging
 namePrefix: stg-
 nameSuffix: -v1.0
