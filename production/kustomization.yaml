@@ -6,8 +6,8 @@ patches:
 - path: deployment.yaml
 
 namespace: production
-namePrefix: prod-
+namePrefix: prd-
 nameSuffix: -v0-9
 commonLabels:
-  app: prod-web-wdpress
+  app: prd-web-wdpress
 

@@ -1,14 +1,12 @@
 kind: Route
 apiVersion: route.openshift.io/v1
 metadata:
-  name: route-web-wdpress
+  name: std-route
 spec:
   to:
     kind: Service
-    name: edge-svc-web-wdpress
-  tls:
-    termination: passthrough
-    insecureEdgeTerminationPolicy: Redirect
+  tls: null
+  host: www.std-web.lab.net
   port:
     targetPort: http
 
