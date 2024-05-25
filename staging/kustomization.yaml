@@ -3,9 +3,8 @@ resources:
 - namespace.yaml
 
 patches:
-- path: 
-    - deployment.yaml
-    - services.yaml
+- path: deployment.yaml
+- path: services.yaml
 
 
 namespace: staging
