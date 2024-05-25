@@ -3,7 +3,10 @@ kind: Service
 metadata:
   name: svc-web-wdpress
 spec:
-  - port: 80
-    targetPort: 8080
-    protocol: TCP
+  selector:
+    app: web-wdpress
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8080
   type: ClusterIP
