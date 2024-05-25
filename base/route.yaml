@@ -1,6 +1,7 @@
 kind: Route
 apiVersion: route.openshift.io/v1
 metadata:
+  name: route-web-wdpress
 spec:
   to:
     kind: Service
