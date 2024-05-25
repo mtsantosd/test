@@ -4,7 +4,6 @@ resources:
 
 patches:
 - path: deployment.yaml
-- path: services.yaml
 
 
 namespace: staging
