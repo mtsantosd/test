@@ -7,7 +7,6 @@ spec:
     kind: Service
     name: svc-web-wdpress
   tls: null
-  host: www.std-web.lab.net
   port:
     targetPort: httpd
 

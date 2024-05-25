@@ -5,7 +5,7 @@ metadata:
 spec:
   replicas: 1
   selector:
-    app: std-web-wdpress
+    app: stg-web-wdpress
   template:
     spec:
       containers:

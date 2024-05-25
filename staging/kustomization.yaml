@@ -11,4 +11,4 @@ namespace: staging
 namePrefix: stg-
 nameSuffix: -v1-0
 commonLabels:
-  app: std-web-wdpress
+  app: stg-web-wdpress

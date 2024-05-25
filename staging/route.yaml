@@ -3,5 +3,5 @@ apiVersion: route.openshift.io/v1
 metadata:
   name: route
 spec:
-  host: std-web.lab.net
+  host: stg-web.lab.net
 
