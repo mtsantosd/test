@@ -6,5 +6,5 @@ spec:
   host: www.stg-web.lab.net
   to:
     kind: Service
-    name: 
+    name: stg-svc-web-wdpress-v1-0
 
