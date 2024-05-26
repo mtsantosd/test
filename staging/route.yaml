@@ -4,3 +4,7 @@ metadata:
   name: route
 spec:
   host: www.stg-web.lab.net
+  to:
+    kind: Service
+    name: svc-web-wdpress
+
