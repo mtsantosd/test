@@ -1,0 +1,11 @@
+kind: Route
+apiVersion: route.openshift.io/v1
+metadata:
+  name: route
+spec:
+  host: www.prd-web.lab.net
+  to:
+    kind: Service
+    name: svc-web-wdpress
+
+
