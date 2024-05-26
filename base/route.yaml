@@ -9,5 +9,5 @@ spec:
     name: svc-web-wdpress
   tls: null
   port:
-    targetPort: httpd
+    targetPort: 8080
 
