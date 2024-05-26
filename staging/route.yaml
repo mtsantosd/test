@@ -4,6 +4,3 @@ metadata:
   name: route
 spec:
   host: www.stg-web.lab.net
-  to:
-    name:
-
