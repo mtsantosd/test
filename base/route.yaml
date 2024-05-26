@@ -6,7 +6,7 @@ spec:
   host:
   to:
     kind: Service
-    name: svc-web-wdpress
+    #name: svc-web-wdpress
   tls: null
   port:
     targetPort: 8080
