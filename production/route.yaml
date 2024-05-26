@@ -6,6 +6,6 @@ spec:
   host: www.prd-web.lab.net
   to:
     kind: Service
-    name: svc-web-wdpress
+    name: 
 
 
