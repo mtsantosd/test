@@ -1,14 +1,6 @@
+apiVersion: kustomize.config.k8s.io/v1betal
+kind: Kustomization
 resources:
-#- ../base
-- namespace.yaml
-
-patches:
-- path: deployment.yaml
-#- path: route.yaml
-
-
-namespace: staging
-namePrefix: stg-
-nameSuffix: -v1-0
-commonLabels:
-  app: stg-web-wdpress
+  ./namespace.yaml
+  ./deployment.yaml
+  ./service.yaml
